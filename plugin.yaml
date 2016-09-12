@@ -2,5 +2,34 @@ plugin:
     name: 'azylalfa.dogbreeder::lang.plugin.name'
     description: 'azylalfa.dogbreeder::lang.plugin.description'
     author: 'Azyl Alfa'
-    icon: oc-icon-certificate
+    icon: oc-icon-paw
     homepage: ''
+navigation:
+    dogs:
+        label: 'azylalfa.dogbreeder::lang.plugin.dogs'
+        url: azylalfa/dogbreeder/dogs
+        icon: icon-paw
+        permissions:
+            - dogs
+        order: 500
+        sideMenu:
+            dogs:
+                label: 'azylalfa.dogbreeder::lang.plugin.dogs'
+                url: azylalfa/dogbreeder/dogs
+                icon: icon-paw
+                permissions:
+                    - dogs
+            categories:
+                label: 'azylalfa.dogbreeder::lang.plugin.categories'
+                url: azylalfa/dogbreeder/categories
+                icon: icon-bars
+                permissions:
+                    - dogs
+            ancestors:
+                label: 'azylalfa.dogbreeder::lang.plugin.ancestors'
+                url: azylalfa/dogbreeder/ancestors
+                icon: icon-sitemap
+permissions:
+    dogs:
+        tab: 'azylalfa.dogbreeder::lang.plugin.dogs'
+        label: 'azylalfa.dogbreeder::lang.plugin.dogs'

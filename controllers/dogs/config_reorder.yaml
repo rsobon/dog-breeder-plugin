@@ -1,0 +1,4 @@
+title: Dogs
+modelClass: AzylAlfa\Dogbreeder\Models\Dog
+toolbar:
+    buttons: reorder_toolbar

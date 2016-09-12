@@ -1,0 +1,28 @@
+columns:
+    name:
+        label: 'azylalfa.dogbreeder::lang.dog.name'
+        type: text
+        searchable: true
+        sortable: true
+    birth:
+        label: 'azylalfa.dogbreeder::lang.dog.birthdate'
+        type: date
+        searchable: true
+        sortable: true
+    titles:
+        label: 'azylalfa.dogbreeder::lang.dog.titles'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'azylalfa.dogbreeder::lang.dog.description'
+        type: text
+        searchable: true
+        sortable: true
+    category_id:
+        label: 'azylalfa.dogbreeder::lang.dog.category'
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: category

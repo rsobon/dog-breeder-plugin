@@ -1,0 +1,11 @@
+fields:
+    name:
+        label: 'azylalfa.dogbreeder::lang.category.name'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    description:
+        label: 'azylalfa.dogbreeder::lang.category.description'
+        span: auto
+        oc.commentPosition: ''
+        type: text

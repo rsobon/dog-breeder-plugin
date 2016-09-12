@@ -1,0 +1,31 @@
+fields:
+    name:
+        label: 'azylalfa.dogbreeder::lang.dog.name'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    birth:
+        label: 'azylalfa.dogbreeder::lang.dog.birthdate'
+        oc.commentPosition: ''
+        mode: date
+        span: auto
+        required: 1
+        type: datepicker
+    titles:
+        label: 'azylalfa.dogbreeder::lang.dog.titles'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    description:
+        label: 'azylalfa.dogbreeder::lang.dog.description'
+        size: large
+        oc.commentPosition: ''
+        span: auto
+        type: textarea
+    category:
+        label: 'azylalfa.dogbreeder::lang.dog.category'
+        oc.commentPosition: ''
+        span: auto
+        type: relation
+        emptyOption: 'azylalfa.dogbreeder::lang.category.empty'

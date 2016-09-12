@@ -1,0 +1,10 @@
+name: Categories
+form: $/azylalfa/dogbreeder/models/category/fields.yaml
+modelClass: AzylAlfa\Dogbreeder\Models\Category
+defaultRedirect: azylalfa/dogbreeder/categories
+create:
+    redirect: 'azylalfa/dogbreeder/categories/update/:id'
+    redirectClose: azylalfa/dogbreeder/categories
+update:
+    redirect: azylalfa/dogbreeder/categories
+    redirectClose: azylalfa/dogbreeder/categories

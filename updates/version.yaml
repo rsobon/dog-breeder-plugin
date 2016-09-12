@@ -1,2 +1,14 @@
 1.0.1:
-    - Initialize plugin.
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table azylalfa_dogbreeder_dogs'
+    - builder_table_create_azylalfa_dogbreeder_dogs.php
+1.0.3:
+    - 'Created table azylalfa_dogbreeder_categories'
+    - builder_table_create_azylalfa_dogbreeder_categories.php
+1.0.4:
+    - 'Updated table azylalfa_dogbreeder_dogs'
+    - builder_table_update_azylalfa_dogbreeder_dogs.php
+1.0.5:
+    - 'Updated table azylalfa_dogbreeder_dogs'
+    - builder_table_update_azylalfa_dogbreeder_dogs_2.php

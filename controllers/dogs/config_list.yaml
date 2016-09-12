@@ -1,0 +1,15 @@
+title: Dogs
+modelClass: AzylAlfa\Dogbreeder\Models\Dog
+list: $/azylalfa/dogbreeder/models/dog/columns.yaml
+recordUrl: 'azylalfa/dogbreeder/dogs/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+showSorting: 1
+defaultSort:
+    column: birth
+    direction: desc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

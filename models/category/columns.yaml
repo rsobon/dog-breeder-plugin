@@ -1,0 +1,11 @@
+columns:
+    name:
+        label: 'azylalfa.dogbreeder::lang.category.name'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'azylalfa.dogbreeder::lang.plugin.description'
+        type: text
+        searchable: true
+        sortable: true
