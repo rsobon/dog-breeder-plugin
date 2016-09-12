@@ -1,0 +1,6 @@
+plugin:
+    name: 'azylalfa.dogbreeder::lang.plugin.name'
+    description: 'azylalfa.dogbreeder::lang.plugin.description'
+    author: 'Azyl Alfa'
+    icon: oc-icon-certificate
+    homepage: ''
