@@ -1,0 +1,11 @@
+title: Ancestors
+modelClass: AzylAlfa\Dogbreeder\Models\Ancestor
+list: $/azylalfa/dogbreeder/models/ancestor/columns.yaml
+recordUrl: 'azylalfa/dogbreeder/ancestors/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

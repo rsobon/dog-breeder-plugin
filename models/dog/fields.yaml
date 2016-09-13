@@ -17,15 +17,17 @@ fields:
         oc.commentPosition: ''
         span: auto
         type: text
+    category:
+        label: 'azylalfa.dogbreeder::lang.dog.category'
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        emptyOption: 'azylalfa.dogbreeder::lang.category.empty'
+        span: auto
+        type: relation
     description:
         label: 'azylalfa.dogbreeder::lang.dog.description'
         size: large
         oc.commentPosition: ''
-        span: auto
+        span: full
         type: textarea
-    category:
-        label: 'azylalfa.dogbreeder::lang.dog.category'
-        oc.commentPosition: ''
-        span: auto
-        type: relation
-        emptyOption: 'azylalfa.dogbreeder::lang.category.empty'

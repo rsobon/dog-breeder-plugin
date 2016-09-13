@@ -12,3 +12,12 @@
 1.0.5:
     - 'Updated table azylalfa_dogbreeder_dogs'
     - builder_table_update_azylalfa_dogbreeder_dogs_2.php
+1.0.6:
+    - 'Created table azylalfa_dogbreeder_ancestors'
+    - builder_table_create_azylalfa_dogbreeder_ancestors.php
+1.0.7:
+    - 'Updated table azylalfa_dogbreeder_dogs'
+    - builder_table_update_azylalfa_dogbreeder_dogs_3.php
+1.0.8:
+    - 'Updated table azylalfa_dogbreeder_dogs'
+    - builder_table_update_azylalfa_dogbreeder_dogs_4.php

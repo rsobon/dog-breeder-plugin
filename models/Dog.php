@@ -28,15 +28,12 @@ class Dog extends Model
 
     public $belongsTo = [
         'category' => ['AzylAlfa\Dogbreeder\Models\Category'],
+        'parent_male' => ['AzylAlfa\Dogbreeder\Models\Ancestor'],
+        'parent_female' => ['AzylAlfa\Dogbreeder\Models\Ancestor'],
     ];
 
     public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
 
     public $translatable = ['name', 'description', 'titles'];
-
-    public function getCategoryOptions()
-    {
-        return Category::all()->lists('name', 'id');
-    }
 
 }

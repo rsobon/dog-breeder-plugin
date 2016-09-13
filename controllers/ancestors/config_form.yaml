@@ -1,0 +1,10 @@
+name: Ancestors
+form: $/azylalfa/dogbreeder/models/ancestor/fields.yaml
+modelClass: AzylAlfa\Dogbreeder\Models\Ancestor
+defaultRedirect: azylalfa/dogbreeder/ancestors
+create:
+    redirect: 'azylalfa/dogbreeder/ancestors/update/:id'
+    redirectClose: azylalfa/dogbreeder/ancestors
+update:
+    redirect: azylalfa/dogbreeder/ancestors
+    redirectClose: azylalfa/dogbreeder/ancestors

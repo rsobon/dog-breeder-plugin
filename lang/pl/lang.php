@@ -13,6 +13,9 @@
         'description' => 'Opis',
         'create' => 'Nowy pies',
         'category' => 'Kategoria',
+        'ancestor' => 'Przodek',
+        'parent_male' => 'Męski rodzic',
+        'parent_female' => 'Żeński rodzic',
     ],
     'category' => [
         'name' => 'Nazwa',

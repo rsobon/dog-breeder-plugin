@@ -1,0 +1,4 @@
+title: Ancestors
+modelClass: AzylAlfa\Dogbreeder\Models\Ancestor
+toolbar:
+    buttons: reorder_toolbar

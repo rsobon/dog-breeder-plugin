@@ -9,4 +9,3 @@ create:
 update:
     redirect: azylalfa/dogbreeder/dogs
     redirectClose: azylalfa/dogbreeder/dogs
-preview: {  }

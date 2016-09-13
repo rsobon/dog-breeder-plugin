@@ -1,0 +1,6 @@
+columns:
+    name:
+        label: 'azylalfa.dogbreeder::lang.dog.name'
+        type: text
+        searchable: true
+        sortable: true
