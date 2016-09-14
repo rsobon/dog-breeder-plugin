@@ -21,3 +21,15 @@
 1.0.8:
     - 'Updated table azylalfa_dogbreeder_dogs'
     - builder_table_update_azylalfa_dogbreeder_dogs_4.php
+1.0.9:
+    - 'Drop table azylalfa_dogbreeder_ancestors'
+    - builder_table_delete_azylalfa_dogbreeder_ancestors.php
+1.0.10:
+    - 'Updated table azylalfa_dogbreeder_dogs'
+    - builder_table_update_azylalfa_dogbreeder_dogs_5.php
+1.0.11:
+    - 'Updated table azylalfa_dogbreeder_dogs'
+    - builder_table_update_azylalfa_dogbreeder_dogs_6.php
+1.0.12:
+    - 'Updated table azylalfa_dogbreeder_dogs'
+    - builder_table_update_azylalfa_dogbreeder_dogs_7.php

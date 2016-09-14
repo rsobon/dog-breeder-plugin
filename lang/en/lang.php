@@ -4,7 +4,6 @@
         'description' => 'Plugin for dog breeders',
         'dogs' => 'Dogs',
         'categories' => 'Categories',
-        'ancestors' => 'Ancestors',
     ],
     'dog' => [
         'name' => 'Name',
@@ -13,11 +12,24 @@
         'description' => 'Description',
         'create' => 'New dog',
         'category' => 'Category',
+        'lineage' => 'Lineage',
+        'father' => 'Father',
+        'mother' => 'Mother',
+        'picture' => 'Picture',
+        'pictures' => 'Pictures',
+        'grandfather' => 'Grandfather',
+        'grandmother' => 'Grandmother',
+        'fatherslineage' => 'Father\'s lineage',
+        'motherslineage' => 'Mother\'s lineage',
+        'grandfathersection' => 'Grandfather\'s section',
+        'grandmothersection' => 'Grandmother\'s section',
+        'greatgrandfather' => 'Great Grandfather',
+        'greatgrandmother' => 'Great Grandmother',
     ],
     'category' => [
         'name' => 'Name',
         'description' => 'Description',
-        'empty' => 'None'
+        'empty' => 'None',
     ],
     'permissions' => [
         'dogs' => 'Can edit dogs',

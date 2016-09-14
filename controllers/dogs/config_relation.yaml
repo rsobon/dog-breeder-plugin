@@ -1,8 +1,0 @@
-parent_male:
-    label: 'azylalfa.dogbreeder::lang.dog.ancestor'
-    view:
-        form: $/azylalfa/dogbreeder/models/ancestor/fields.yaml
-        toolbarButtons: create|update|link|unlink|delete
-    manage:
-        form: $/azylalfa/dogbreeder/models/ancestor/fields.yaml
-        list: $/azylalfa/dogbreeder/models/ancestor/columns.yaml

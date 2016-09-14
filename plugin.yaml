@@ -24,12 +24,6 @@ navigation:
                 icon: icon-bars
                 permissions:
                     - dogs
-            ancestors:
-                label: 'azylalfa.dogbreeder::lang.plugin.ancestors'
-                url: azylalfa/dogbreeder/ancestors
-                icon: icon-sitemap
-                permissions:
-                    - dogs
 permissions:
     dogs:
         tab: 'azylalfa.dogbreeder::lang.plugin.dogs'

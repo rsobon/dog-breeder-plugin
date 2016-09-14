@@ -1,7 +1,0 @@
-fields:
-    name:
-        label: 'azylalfa.dogbreeder::lang.dog.name'
-        span: full
-        oc.commentPosition: ''
-        required: 1
-        type: text
