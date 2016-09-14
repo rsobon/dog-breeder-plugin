@@ -34,4 +34,11 @@
     'permissions' => [
         'dogs' => 'Can edit dogs',
     ],
+    'components' => [
+        'dogs' => [
+            'name' => 'Dogs',
+            'description' => 'Show your dogs on your site',
+        ],
+    ]
+
 ];

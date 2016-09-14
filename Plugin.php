@@ -6,6 +6,9 @@ class Plugin extends PluginBase
 {
     public function registerComponents()
     {
+        return [
+            'AzylAlfa\Dogbreeder\Components\Dogs'       => 'Dogs',
+        ];
     }
 
     public function registerSettings()
