@@ -1,0 +1,10 @@
+columns:
+    id:
+        label: id
+        type: number
+        sortable: true
+    name:
+        label: 'azylalfa.dogbreeder::lang.puppies.name'
+        type: text
+        searchable: true
+        sortable: true

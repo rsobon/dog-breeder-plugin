@@ -31,6 +31,12 @@ fields:
         oc.commentPosition: ''
         span: full
         type: richeditor
+    published_at:
+        label: 'azylalfa.dogbreeder::lang.plugin.published_at'
+        span: auto
+        oc.commentPosition: ''
+        mode: date
+        type: datepicker
 tabs:
     fields:
         picture:

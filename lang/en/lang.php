@@ -4,6 +4,8 @@
         'description' => 'Plugin for dog breeders',
         'dogs' => 'Dogs',
         'categories' => 'Categories',
+        'puppies' => 'Puppies',
+        'published_at' => 'Published at',
     ],
     'dog' => [
         'name' => 'Name',
@@ -39,6 +41,8 @@
             'name' => 'Dogs',
             'description' => 'Show your dogs on your site',
         ],
-    ]
-
+    ],
+    'puppies' => [
+        'name' => 'Litter name',
+    ],
 ];

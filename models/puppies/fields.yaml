@@ -1,0 +1,29 @@
+fields:
+    name:
+        label: 'azylalfa.dogbreeder::lang.puppies.name'
+        span: full
+        oc.commentPosition: ''
+        type: text
+    description:
+        label: 'azylalfa.dogbreeder::lang.dog.description'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: richeditor
+    published_at:
+        label: 'azylalfa.dogbreeder::lang.plugin.published_at'
+        span: auto
+        oc.commentPosition: ''
+        mode: date
+        type: datepicker
+    pictures:
+        label: 'azylalfa.dogbreeder::lang.dog.pictures'
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        imageWidth: '300'
+        type: fileupload

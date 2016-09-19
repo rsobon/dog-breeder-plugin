@@ -1,0 +1,11 @@
+name: Puppies
+modelClass: AzylAlfa\Dogbreeder\Models\Puppies
+form: $/azylalfa/dogbreeder/models/puppies/fields.yaml
+defaultRedirect: azylalfa/dogbreeder/puppies
+create:
+    redirect: 'azylalfa/dogbreeder/puppies/update/:id'
+    redirectClose: azylalfa/dogbreeder/puppies
+update:
+    redirect: azylalfa/dogbreeder/puppies
+    redirectClose: azylalfa/dogbreeder/puppies
+preview: {  }
