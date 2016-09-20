@@ -8,6 +8,7 @@ use October\Rain\Database\Model;
 class Dog extends Model
 {
     use \October\Rain\Database\Traits\Validation;
+    use \October\Rain\Database\Traits\Sortable;
 
     /*
      * Validation
