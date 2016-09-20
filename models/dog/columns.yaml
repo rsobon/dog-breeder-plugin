@@ -1,4 +1,8 @@
 columns:
+    id:
+        label: id
+        type: number
+        sortable: true
     name:
         label: 'azylalfa.dogbreeder::lang.dog.name'
         type: text
