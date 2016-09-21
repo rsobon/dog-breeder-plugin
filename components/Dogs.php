@@ -3,6 +3,7 @@
 use AzylAlfa\Dogbreeder\Models\Dog;
 use AzylAlfa\Dogbreeder\Models\Category;
 use Cms\Classes\ComponentBase;
+use Carbon\Carbon;
 
 class Dogs extends ComponentBase
 {
@@ -19,53 +20,15 @@ class Dogs extends ComponentBase
     {
         return [
             'itemId' => [
-                'title' => 'itemId',
-                'description' => 'itemId',
+                'title' => 'ID',
+                'description' => 'azylalfa.dogbreeder::lang.components.dogs.property_id_desc',
                 'default' => '',
                 'type' => 'string',
                 'validationPattern' => '^[0-9]+$',
             ],
-            'maxItems' => [
-                'title' => 'maxItems',
-                'description' => 'maxItems',
-                'default' => 36,
-                'type' => 'string',
-                'validationPattern' => '^[0-9]+$',
-            ],
-            'orderBy' => [
-                'title' => 'orderBy',
-                'description' => 'orderBy',
-                'type' => 'dropdown',
-                'default' => 'id',
-            ],
-            'sort' => [
-                'title' => 'sort',
-                'description' => 'sort',
-                'type' => 'dropdown',
-                'default' => 'desc',
-            ],
-            'paginate' => [
-                'title' => 'paginate',
-                'description' => 'paginate',
-                'type' => 'checkbox',
-            ],
-            'page' => [
-                'title' => 'page',
-                'description' => 'page',
-                'type' => 'string',
-                'default' => '1',
-                'validationPattern' => '^[0-9]+$',
-            ],
-            'perPage' => [
-                'title' => 'perPage',
-                'description' => 'perPage',
-                'type' => 'string',
-                'default' => '12',
-                'validationPattern' => '^[0-9]+$',
-            ],
             'category' => [
-                'title'       => 'category',
-                'description' => 'category',
+                'title'       => 'azylalfa.dogbreeder::lang.dog.category',
+                'description' => 'azylalfa.dogbreeder::lang.components.dogs.property_category_desc',
                 'type'        => 'dropdown',
             ]
         ];
@@ -92,7 +55,8 @@ class Dogs extends ComponentBase
     protected function dogs()
     {
         if (!is_numeric($this->property('itemId'))) {
-            $dogs = Dog::with('picture');
+            $dogs = Dog::with('picture')
+                ->where('published_at', '<', Carbon::now());
 
             if ($this->property('category')) {
                 $dogs->whereHas('category', function ($query) {

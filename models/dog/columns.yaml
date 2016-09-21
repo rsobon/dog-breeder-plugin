@@ -13,11 +13,6 @@ columns:
         type: date
         searchable: true
         sortable: true
-    titles:
-        label: 'azylalfa.dogbreeder::lang.dog.titles'
-        type: text
-        searchable: true
-        sortable: true
     category_id:
         label: 'azylalfa.dogbreeder::lang.dog.category'
         type: text
@@ -25,3 +20,8 @@ columns:
         sortable: true
         select: name
         relation: category
+    published_at:
+        label: 'azylalfa.dogbreeder::lang.plugin.published_at'
+        type: date
+        searchable: true
+        sortable: true

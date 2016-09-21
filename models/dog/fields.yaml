@@ -25,18 +25,18 @@ fields:
         emptyOption: 'azylalfa.dogbreeder::lang.category.empty'
         span: auto
         type: relation
-    description:
-        label: 'azylalfa.dogbreeder::lang.dog.description'
-        size: large
-        oc.commentPosition: ''
-        span: full
-        type: richeditor
     published_at:
         label: 'azylalfa.dogbreeder::lang.plugin.published_at'
         span: auto
         oc.commentPosition: ''
         mode: date
         type: datepicker
+    description:
+        label: 'azylalfa.dogbreeder::lang.dog.description'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: richeditor
 tabs:
     fields:
         picture:

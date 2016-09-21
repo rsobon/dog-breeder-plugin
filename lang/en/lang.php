@@ -40,6 +40,8 @@
         'dogs' => [
             'name' => 'Dogs',
             'description' => 'Show your dogs on your site',
+            'property_id_desc' => 'Choose id of the dog',
+            'property_category_desc' => 'Choose dog category'
         ],
     ],
     'puppies' => [
