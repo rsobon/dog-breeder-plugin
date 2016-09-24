@@ -27,9 +27,9 @@ class Dogs extends ComponentBase
                 'validationPattern' => '^[0-9]+$',
             ],
             'category' => [
-                'title'       => 'azylalfa.dogbreeder::lang.dog.category',
+                'title' => 'azylalfa.dogbreeder::lang.dog.category',
                 'description' => 'azylalfa.dogbreeder::lang.components.dogs.property_category_desc',
-                'type'        => 'dropdown',
+                'type' => 'dropdown',
             ]
         ];
     }
@@ -56,7 +56,8 @@ class Dogs extends ComponentBase
     {
         if (!is_numeric($this->property('itemId'))) {
             $dogs = Dog::with('picture')
-                ->where('published_at', '<', Carbon::now());
+                ->where('published_at', '<', Carbon::now())
+                ->orderBy('published_at', 'desc');
 
             if ($this->property('category')) {
                 $dogs->whereHas('category', function ($query) {

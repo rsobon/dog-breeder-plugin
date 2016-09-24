@@ -31,5 +31,5 @@ class Puppies extends Model
     ];
     public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
 
-    public $translatable = ['description'];
+    public $translatable = ['name', 'description'];
 }

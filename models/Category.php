@@ -29,4 +29,8 @@ class Category extends Model
     public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
 
     public $translatable = ['name', 'description'];
+
+    public $hasMany = [
+        'dogs' => 'AzylAlfa\Dogbreeder\Models\Dog'
+    ];
 }

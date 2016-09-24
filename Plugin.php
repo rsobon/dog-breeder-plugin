@@ -8,6 +8,7 @@ class Plugin extends PluginBase
     {
         return [
             'AzylAlfa\Dogbreeder\Components\Dogs'       => 'Dogs',
+            'AzylAlfa\Dogbreeder\Components\Puppies'       => 'Puppies',
         ];
     }
 
