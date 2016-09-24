@@ -4,6 +4,8 @@
         'description' => 'Plugin dla hodowców psów.',
         'dogs' => 'Psy',
         'categories' => 'Kategorie',
+        'puppies' => 'Szczenięta',
+        'published_at' => 'Opublikowano',
     ],
     'dog' => [
         'name' => 'Imię',
@@ -19,8 +21,8 @@
         'pictures' => 'Zdjęcia',
         'grandfather' => 'Dziadek',
         'grandmother' => 'Babcia',
-        'fatherslineage' => 'Rodowód od strony ojca',
-        'motherslineage' => 'Rodowód od strony matki',
+        'fatherslineage' => 'Rodowód ojca',
+        'motherslineage' => 'Rodowód matki',
         'grandfathersection' => 'Rodzice dziadka',
         'grandmothersection' => 'Rodzice babci',
         'greatgrandfather' => 'Pra pradziadek',
@@ -33,5 +35,16 @@
     ],
     'permissions' => [
         'dogs' => 'Może edytować psy',
+    ],
+    'components' => [
+        'dogs' => [
+            'name' => 'Dogs',
+            'description' => 'Pokaż psy na stronie',
+            'property_id_desc' => 'Wybierz id psa',
+            'property_category_desc' => 'Wybierz kategorię psa',
+        ],
+    ],
+    'puppies' => [
+        'name' => 'Nazwa miotu',
     ],
 ];
