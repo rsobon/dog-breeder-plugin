@@ -40,4 +40,8 @@ class Dog extends Model
 
     public $translatable = ['description'];
 
+    public function slug () {
+        $path = 'psy/' . str_replace(' ', '-', strtolower($this->category->lang('pl')->name));
+        return $path;
+    }
 }
