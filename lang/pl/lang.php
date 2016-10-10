@@ -43,6 +43,11 @@
             'property_id_desc' => 'Wybierz id psa',
             'property_category_desc' => 'Wybierz kategorię psa',
         ],
+        'puppies' => [
+            'name' => 'Szczenięta',
+            'description' => 'Pokaż szeczenięta na stronie',
+            'property_id_desc' => 'Wybierz id kolekcji szczeniąt'
+        ],
     ],
     'puppies' => [
         'name' => 'Nazwa miotu',

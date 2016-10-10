@@ -43,6 +43,11 @@
             'property_id_desc' => 'Choose id of the dog',
             'property_category_desc' => 'Choose dog category'
         ],
+        'puppies' => [
+            'name' => 'Puppies',
+            'description' => 'Show your puppies on your site',
+            'property_id_desc' => 'Choose id of the puppies collection'
+        ]
     ],
     'puppies' => [
         'name' => 'Litter name',
