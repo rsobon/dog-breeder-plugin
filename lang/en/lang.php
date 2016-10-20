@@ -6,6 +6,7 @@
         'categories' => 'Categories',
         'puppies' => 'Puppies',
         'published_at' => 'Published at',
+        'date' => 'Date'
     ],
     'dog' => [
         'name' => 'Name',

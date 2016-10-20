@@ -1,6 +1,7 @@
 <?php namespace AzylAlfa\Dogbreeder\Models;
 
 use October\Rain\Database\Model;
+use Carbon\Carbon;
 
 /**
  * Model
@@ -44,4 +45,26 @@ class Dog extends Model
         $path = 'psy/' . str_replace(' ', '-', strtolower($this->category->lang('pl')->name));
         return $path;
     }
+
+    /**
+     * Allows filtering for specifc categories
+     * @param  Illuminate\Query\Builder  $query      QueryBuilder
+     * @param  array                     $category List of category ids
+     * @return Illuminate\Query\Builder              QueryBuilder
+     */
+    public function scopeFilterCategories($query, $category)
+    {
+        return $query->whereHas('category', function($q) use ($category) {
+            $q->whereIn('id', $category);
+        });
+    }
+
+    public function scopeIsPublished($query)
+    {
+        return $query
+            ->whereNotNull('published_at')
+            ->where('published_at', '<', Carbon::now())
+            ;
+    }
+
 }

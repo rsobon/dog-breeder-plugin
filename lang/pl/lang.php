@@ -6,6 +6,7 @@
         'categories' => 'Kategorie',
         'puppies' => 'Szczenięta',
         'published_at' => 'Opublikowano',
+        'date' => 'Data'
     ],
     'dog' => [
         'name' => 'Imię',

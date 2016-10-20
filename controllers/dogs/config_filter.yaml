@@ -1,0 +1,40 @@
+# ===================================
+# Filter Scope Definitions
+# ===================================
+
+scopes:
+
+    category:
+
+        # Filter name
+        label: azylalfa.dogbreeder::lang.plugin.categories
+
+        # Model Class name
+        modelClass: AzylAlfa\Dogbreeder\Models\Category
+
+        # Model attribute to display for the name
+        nameFrom: name
+
+        # Apply query scope
+        scope: FilterCategories
+
+    published:
+
+        # Filter name
+        label: azylalfa.dogbreeder::lang.plugin.published_at
+
+        # Filter type
+        type: switch
+
+        scope: IsPublished
+
+    published_date:
+
+        # Filter name
+        label: azylalfa.dogbreeder::lang.plugin.date
+
+        # Filter type
+        type: daterange
+
+        # SQL Conditions
+        conditions: published_at >= ':after' AND published_at <= ':before'
