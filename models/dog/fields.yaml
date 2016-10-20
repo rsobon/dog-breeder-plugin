@@ -63,58 +63,7 @@ tabs:
             imageWidth: '300'
             type: fileupload
             tab: 'azylalfa.dogbreeder::lang.dog.pictures'
-        mother:
-            label: 'azylalfa.dogbreeder::lang.dog.mother'
-            oc.commentPosition: ''
-            span: full
-            type: text
-            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
-        m_father:
-            label: 'azylalfa.dogbreeder::lang.dog.grandfather'
-            oc.commentPosition: ''
-            span: auto
-            type: text
-            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
-        m_mother:
-            label: 'azylalfa.dogbreeder::lang.dog.grandmother'
-            oc.commentPosition: ''
-            span: auto
-            type: text
-            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
-        mf_section:
-            label: 'azylalfa.dogbreeder::lang.dog.grandfathersection'
-            span: full
-            type: section
-            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
-        mf_father:
-            label: 'azylalfa.dogbreeder::lang.dog.greatgrandfather'
-            oc.commentPosition: ''
-            span: auto
-            type: text
-            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
-        mf_mother:
-            label: 'azylalfa.dogbreeder::lang.dog.greatgrandmother'
-            oc.commentPosition: ''
-            span: auto
-            type: text
-            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
-        mm_section:
-            label: 'azylalfa.dogbreeder::lang.dog.grandmothersection'
-            span: full
-            type: section
-            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
-        mm_father:
-            label: 'azylalfa.dogbreeder::lang.dog.greatgrandfather'
-            oc.commentPosition: ''
-            span: auto
-            type: text
-            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
-        mm_mother:
-            label: 'azylalfa.dogbreeder::lang.dog.greatgrandmother'
-            oc.commentPosition: ''
-            span: auto
-            type: text
-            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
+
         father:
             label: 'azylalfa.dogbreeder::lang.dog.father'
             oc.commentPosition: ''
@@ -167,3 +116,55 @@ tabs:
             span: auto
             type: text
             tab: 'azylalfa.dogbreeder::lang.dog.fatherslineage'
+        mother:
+            label: 'azylalfa.dogbreeder::lang.dog.mother'
+            oc.commentPosition: ''
+            span: full
+            type: text
+            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
+        m_father:
+            label: 'azylalfa.dogbreeder::lang.dog.grandfather'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
+        m_mother:
+            label: 'azylalfa.dogbreeder::lang.dog.grandmother'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
+        mf_section:
+            label: 'azylalfa.dogbreeder::lang.dog.grandfathersection'
+            span: full
+            type: section
+            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
+        mf_father:
+            label: 'azylalfa.dogbreeder::lang.dog.greatgrandfather'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
+        mf_mother:
+            label: 'azylalfa.dogbreeder::lang.dog.greatgrandmother'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
+        mm_section:
+            label: 'azylalfa.dogbreeder::lang.dog.grandmothersection'
+            span: full
+            type: section
+            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
+        mm_father:
+            label: 'azylalfa.dogbreeder::lang.dog.greatgrandfather'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
+        mm_mother:
+            label: 'azylalfa.dogbreeder::lang.dog.greatgrandmother'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'azylalfa.dogbreeder::lang.dog.motherslineage'
