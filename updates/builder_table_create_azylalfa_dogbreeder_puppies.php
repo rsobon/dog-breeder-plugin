@@ -11,7 +11,10 @@ class BuilderTableCreateAzylalfaDogbreederPuppies extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
-            $table->text('content')->nullable();
+            $table->string('name')->nullable();
+            $table->text('description')->nullable();
+            $table->date('published_at')->nullable();
+            $table->integer('sort_order')->nullable();
         });
     }
     
