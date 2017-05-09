@@ -3,7 +3,7 @@ plugin:
     description: 'azylalfa.dogbreeder::lang.plugin.description'
     author: 'Azyl Alfa'
     icon: oc-icon-paw
-    homepage: ''
+    homepage: 'https://github.com/rsobon/dog-breeder-plugin'
 navigation:
     dogs:
         label: 'azylalfa.dogbreeder::lang.plugin.dogs'
