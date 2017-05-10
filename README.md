@@ -27,7 +27,7 @@ itemId = "{{ :id }}"
 {% component 'Dogs' %}
 ```
 
-By accessing `/api/dogs` you can display all dogs. By accessiong `/api/dogs/1` you can display only dog with ID "1". By default component will return "raw" data in JSON format:
+By accessing `/api/dogs` you can display all dogs. By accessing `/api/dogs/1` you can display only dog with ID "1". By default component will return "raw" data in JSON format:
 ```json
 
 {
