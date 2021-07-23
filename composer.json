@@ -1,0 +1,8 @@
+{
+    "name": "azylalfa/dogbreeder-plugin",
+    "type": "october-plugin",
+    "description": "Plugin for dogbreeders",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
